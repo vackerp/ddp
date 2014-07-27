@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMI calculator</title>
+  <meta charset="utf-8">
+  <meta name="description" content="BMI calculator">
+  <meta name="author" content="vackerp">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>BMI calculator</h1>
+    <h2>coursera project</h2>
+    <p>vackerp<br/>data</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>The app</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This very basic shiny app is intended for the Coursera Course &#39;Developing Data Products&#39;. It&#39;s a very basis BMI-calculator. <a href="http://vackerp.shinyapps.io/Documents">The app is hosted on shinyapps.io</a>. </p>
+
+<p>It need 2 parameters: The height (in meters en centimeters (example: 1.78) and the weight (in kg (example: 75))</p>
+
+<p>Output: the MBI-index.
+Calculation:</p>
+
+<pre><code class="r">height = 1.78
+weight = 75
+weight / height^2
+</code></pre>
